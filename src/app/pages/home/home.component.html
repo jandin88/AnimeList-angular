@@ -1,0 +1,12 @@
+<div class="home__container">
+	<ng-container *ngFor="let anime of animeAll"
+	>
+		<app-card
+			gameCover="{{anime.aniImg}}"
+			gameLabel="{{anime.aniNome}}"
+			gamePrice="{{anime.aniGender}}"
+		>
+		</app-card>
+	</ng-container>
+</div>
+
